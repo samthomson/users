@@ -1,7 +1,11 @@
 {
+	"companies": [
+		{ "id": "1", "name": "Consultio & Consultius", "description": "AJ & MC"},
+		{ "id": "14", "name": "JLB Credit", "description": "generic credit firm"}
+	],
 	"users": [
-		{ "id": "23", "firstName": "Bill", "age": "20"},
-		{ "id": "47", "firstName": "Samantha", "age": "21"},
-		{ "id": "108", "firstName": "Sam", "age": "30"}
+		{ "id": "23", "firstName": "Bill", "age": "20", "companyId": "1"},
+		{ "id": "47", "firstName": "Samantha", "age": "21", "companyId": "14"},
+		{ "id": "108", "firstName": "Sam", "age": "30", "companyId": "14"}
 	]
 }
